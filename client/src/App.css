@@ -23,7 +23,7 @@ h2, h3, p {
 }
 
 .component {
-  margin: 4rem 1rem;
+  margin: 4rem 0;
   max-width: 800px;
   width: 100%;
 }
@@ -33,9 +33,13 @@ h2, h3, p {
 }
 
 .list {
-  margin: 1rem 0;
+  margin: 1rem;
   background-color: #fff;
   padding: 2rem 3rem;
+}
+
+.list button {
+  margin-bottom: 1rem;
 }
 
 .info {
@@ -57,7 +61,7 @@ h2, h3, p {
 .form-container {
   max-width: 400px;
   padding: 2rem ;
-  margin: 1rem 0;
+  margin: 1rem;
   background-color: #fff;
 }
 
@@ -98,6 +102,11 @@ input {
 }
 
 @media (max-width: 460px) {
+  .form-item {
+    height: 60px;
+    font-size: 1.3rem;
+  }
+
   .info span {
     font-size: 1.5rem;
   }
@@ -110,8 +119,9 @@ input {
     font-size: 1.7rem;
   }
 
-  .form-item label {
+  .file {
     font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
 
 }
